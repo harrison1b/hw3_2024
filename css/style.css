@@ -65,7 +65,7 @@ nav a{
 
 nav{
   background-color: #ddd;
-  padding: 25px 0; 
+  padding: 25px 0;
   text-align: left;
 }
 
@@ -116,13 +116,12 @@ nav a:focus{
 }
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
 .skip a:focus{
-  position: relative;
   top: -20px;
-  border: 2px solid black;
 }
 /* Step 3: Write selector/rule property to style all elements when in focus*/
-:focus{
-  outline: 2px solid black;
+*:focus{
+  outline: outline;
+  border: 2px solid black;
 }
 
 /* Step 4: Write selector/rule property to style the container */
